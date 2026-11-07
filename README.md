@@ -61,6 +61,7 @@ Full details: [`docs/agent_system_manual.md`](docs/agent_system_manual.md) · No
 
 ## Lessons from running it
 
+- **Plain files mean no lock-in.** Everything (personas, memory, rules, routing) lives in files I own, not inside one tool. I switch between harnesses such as Claude Code, Gemini CLI and Antigravity, and the next agent simply reads the same folder: no export, no migration.
 - **One always-on agent beats several.** I first ran a planner, a librarian and a Notion agent as separate server services. Keeping three agents alive and in sync cost more than it gave, so I shut them down and kept a single server agent (HERMES). The other roles now run on demand in local sessions.
 - **Small local models were not enough on a laptop GPU.** On a 4 GB GPU, 4B–8B models gave about 2 tokens per second and failed most tool calls, so the server agent uses a hosted LLM API.
 - **Secrets drift into files.** Tokens pasted into scripts spread into dozens of files and into git history. Everything now reads from `.env`, and repositories are scanned (history included) before anything goes public.
