@@ -10,10 +10,10 @@ aliases: ["Global Memory"]
 * **Current Roles:** <study / job / responsibilities>
 
 ## Personal Work & Planning Habits
-* **Focus Windows:** <e.g., low focus in the morning; deep work in the afternoon>
-* **Work Locations:** <e.g., university for research, cafe for writing and planning, home for practice>
-* **Weekly Planning:** <e.g., plan the week every Friday, then put it in the calendar>
-* **Floating Capacity:** Never fill every day; leave unallocated blocks for short-notice meetings.
+* **Focus Windows:** <when you do your best deep work>
+* **Work Locations:** <which kind of work happens where>
+* **Weekly Planning:** <when and how you plan the week>
+* <any other planning habit the agents should respect>
 
 ## Global Preferences & Routines
 * <recurring routines: sport, music, drawing…>

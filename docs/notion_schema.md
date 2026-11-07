@@ -22,7 +22,7 @@ Standalone tasks link directly to an Area. Nothing is left without a parent.
 | `Tasks` | relation → Tasks |
 | `Notes` | relation → Notes |
 
-Example areas: Studies & Career · Intellectual Exploration · Hobbies & Creativity · Health & Self-Development · Personal Finance · Memories & Archive
+Example areas: Work & Career · Learning & Growth · Hobbies & Creativity · Finance · Health & Fitness · Home & Relationships
 
 ### Projects
 | Property | Type | Notes |
